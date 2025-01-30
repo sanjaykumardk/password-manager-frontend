@@ -29,7 +29,7 @@ const PasswordList = () => {
   const handleDeletePassword = async (id) => {
     setError(null);
     try {
-      await axios.delete(`http://localhost:5000/api/passwords/${id}`);
+      await axios.delete(`https://password-manager-backend-9qh9.onrender.com/api/passwords/${id}`);
       setPasswords(passwords.filter(password => password._id !== id));
       alert('Password deleted successfully!');
     } catch (error) {
