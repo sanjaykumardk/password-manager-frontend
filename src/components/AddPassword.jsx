@@ -54,7 +54,7 @@ const AddPassword = ({ onAddPassword }) => {
     console.log('Submitting new password data:', newPasswordData);
 
     try {
-      const response = await axios.post('http://localhost:5000/api/passwords', newPasswordData);
+      const response = await axios.post('https://password-manager-backend-9qh9.onrender.com/api/passwords', newPasswordData);
       console.log('Response from server:', response.data);
       onAddPassword(response.data);
       setShowConfirmation(false);
