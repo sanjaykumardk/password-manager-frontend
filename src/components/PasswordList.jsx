@@ -16,7 +16,7 @@ const PasswordList = () => {
     setLoading(true);
     setError(null);
     try {
-      const response = await axios.get('http://localhost:5000/api/passwords');
+      const response = await axios.get('https://password-manager-backend-9qh9.onrender.com/api/passwords');
       setPasswords(response.data);
     } catch (error) {
       console.error('Error fetching passwords:', error);
