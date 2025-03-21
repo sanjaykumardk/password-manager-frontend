@@ -3,7 +3,6 @@
 A **secure, terminal-themed password manager** built using the **MERN stack** (**MongoDB, Express, React + Vite, and Node.js**). This application allows users to **store, generate, and manage** their passwords securely.
 
 ## 🚀 Features
-- ✅ **User Authentication** (JWT-based secure login & signup)
 - ✅ **Password Management** (Save, retrieve, and delete stored passwords)
 - ✅ **Random Password Generator**
 - ✅ **Secure Password Encryption**
